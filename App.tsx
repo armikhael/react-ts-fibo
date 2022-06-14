@@ -40,7 +40,7 @@ export default function App() {
           type="number"
           name="number"
           value={inputs.number}
-          onChange={handleChange}
+          onChange={(e) => handleChange(e)}
         />
         <input type="submit" />
       </form>
